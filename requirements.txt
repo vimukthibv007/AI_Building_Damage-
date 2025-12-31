@@ -1,0 +1,11 @@
+﻿fastapi
+uvicorn[standard]
+ultralytics
+opencv-python
+numpy
+scikit-image
+Pillow
+pyyaml
+tqdm
+reportlab
+pycocotools
