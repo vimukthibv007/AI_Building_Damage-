@@ -1,3 +1,49 @@
+# =========================
+# Python / FastAPI
+# =========================
 venv/
+.env
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# =========================
+# AI / ML artifacts
+# =========================
+data/
+datasets/
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.h5
+*.joblib
+*.pkl
+*.npz
+
+# =========================
+# Node / React / Vite
+# =========================
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Build / Cache
+# =========================
+.cache/
+.mypy_cache/
+.pytest_cache/
